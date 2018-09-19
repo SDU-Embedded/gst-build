@@ -18,12 +18,12 @@ You should get `ninja` using your package manager or downloading it from
 
 ### Build GStreamer and its modules
 
-You can get all GStreamer built running:
-
+You can get all GStreamer built and installed running:
 
 ```
 meson build
 ninja -C build/
+sudo ninja -C build/ install
 ```
 NOTE: on Ubuntu (and mayde other distributions) you may have to call meson using
 ```
