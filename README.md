@@ -25,13 +25,15 @@ meson build
 ninja -C build/
 sudo ninja -C build/ install
 ```
+NOTE: Installation takes forever and it may look stalled - be patient...
+NOTE: on fedora (and maybe other distributions) replace `ninja` with `ninja-build`
 NOTE: on Ubuntu (and mayde other distributions) you may have to call meson using
 ```
 ~/.local/bin/meson build
 ```
 This is a known bug reported [here](https://github.com/mesonbuild/meson/issues/1613)
 
-NOTE: on fedora (and maybe other distributions) replace `ninja` with `ninja-build`
+
 
 # Development environment
 
