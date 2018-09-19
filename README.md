@@ -9,7 +9,7 @@ meson and its [subproject](https://github.com/mesonbuild/meson/wiki/Subprojects)
 
 ### Install meson and ninja
 
-You should get meson through your package manager or using:
+You should get meson using:
 
   $ pip3 install --user meson
 
@@ -20,9 +20,16 @@ You should get `ninja` using your package manager or downloading it from
 
 You can get all GStreamer built running:
 
+
 ```
-mkdir build/ && meson build && ninja -C build/
+meson build
+ninja -C build/
 ```
+NOTE: on Ubuntu (and mayde other distributions) you may have to call meson using
+```
+~/.local/bin/meson build
+```
+This is a known bug reported [here](https://github.com/mesonbuild/meson/issues/1613)
 
 NOTE: on fedora (and maybe other distributions) replace `ninja` with `ninja-build`
 
