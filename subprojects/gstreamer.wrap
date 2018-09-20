@@ -1,5 +1,5 @@
 [wrap-git]
 directory=gstreamer
-url=https://anongit.freedesktop.org/git/gstreamer/gstreamer.git
-push-url=ssh://git.freedesktop.org/git/gstreamer/gstreamer
+url=https://github.com/SDU-Embedded/gstreamer.git
+push-url=git@github.com:SDU-Embedded/gstreamer.git
 revision=master

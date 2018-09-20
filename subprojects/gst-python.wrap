@@ -1,5 +1,5 @@
 [wrap-git]
 directory=gst-python
-url=https://anongit.freedesktop.org/git/gstreamer/gst-python.git
-push-url=ssh://git.freedesktop.org/git/gstreamer/gst-python
+url=https://github.com/SDU-Embedded/gst-python.git
+push-url=git@github.com:SDU-Embedded/gst-python.git
 revision=master
